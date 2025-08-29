@@ -5,11 +5,13 @@ function greet(name) {
 
 console.log(greet("Alice")); // Example usage
 
-console.log(add(5, 3)); // Example usage
+
 // Function Expression
 const add = function (firstNumber, secondNumber) {
     return firstNumber + secondNumber;
 }
+console.log(add(5, 3)); // Example usage
+
 
 // hoisting: means you can call the function before its declaration
 // Functions are hoisted, meaning you can call them before their declaration in the code.
