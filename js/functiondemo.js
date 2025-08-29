@@ -2,4 +2,4 @@ function greet(name){
     return `Hello, ${name}!`; // Template literal
 }
 
-console.log(greet("Alice"));
+console.log(greet("Alice")); // Example usage
