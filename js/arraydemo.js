@@ -32,3 +32,28 @@ for (let fruit of fruits) {
 */
 fruits.forEach(fruit => console.log(fruit));
 numbers.forEach(number => console.log(number));
+
+//Array methods
+// push() - add an element to the end of an array
+fruits.push("Mango");
+console.log(fruits);
+
+//pop() - remove the last element of an array
+fruits.pop();
+console.log(fruits);
+
+//unshift() - add an element to the beginning of an array
+fruits.unshift("Strawberry");
+console.log(fruits);
+
+//shift() - remove the first element of an array
+fruits.shift();
+console.log(fruits);
+
+//indexOf() - search an element and return its index
+let index = fruits.indexOf("Banana");
+console.log(index);
+
+//includes() - search an element and return true if found, otherwise false
+let isFound = fruits.includes("Banana");
+console.log(isFound);
