@@ -15,3 +15,13 @@ console.log(typeof(fruits));
 for (let index = 0; index < fruits.length; index++) {
     console.log(fruits[index]);
 }
+
+//iterate an array using for...of loop
+/*
+    for(const value of iterable){
+        code block to be executed
+        }
+*/
+for (let fruit of fruits) {
+    console.log(fruit);
+}
