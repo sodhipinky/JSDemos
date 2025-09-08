@@ -2,7 +2,7 @@
 // []
 let cars = ["Saab", "Volvo", "BMW"];
 
-let number = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 
 let mixed = ["text", 1, true, null];
 
@@ -25,3 +25,10 @@ for (let index = 0; index < fruits.length; index++) {
 for (let fruit of fruits) {
     console.log(fruit);
 }
+
+// iterate an array using forEach() method
+/*
+    array.forEach(function(currentValue, index, arr), thisValue)
+*/
+fruits.forEach(fruit => console.log(fruit));
+numbers.forEach(number => console.log(number));
