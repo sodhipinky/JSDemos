@@ -57,3 +57,20 @@ console.log(index);
 //includes() - search an element and return true if found, otherwise false
 let isFound = fruits.includes("Banana");
 console.log(isFound);
+
+// map, filter, reduce
+// map is used to transform each element of an array and return a new array
+let square = numbers.map(number => number * number);
+console.log(square);
+
+// filter is used to filter elements of an array based on a condition and return a new array
+let evenNumbers = numbers.filter(number => number % 2 === 0);
+console.log(evenNumbers);
+
+//reduce is used to reduce the array to a single value based on a condition
+// syntax: array.reduce((accumulator, value) => formula, initialValue)
+// accumulator is the accumulated value
+// value is the current value
+// initialValue is the initial value of the accumulator
+let sumOfNumbers = numbers.reduce((sum, number) => sum + number, 0);
+console.log(sumOfNumbers);
