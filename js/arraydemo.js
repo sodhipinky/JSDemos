@@ -10,4 +10,8 @@ let fruits = new Array("Apple", "Banana", 1, 5, 8);
 
 console.log(fruits);
 console.log(typeof(fruits));
-//iterate an array
+
+//iterate an array, using for loop
+for (let index = 0; index < fruits.length; index++) {
+    console.log(fruits[index]);
+}
