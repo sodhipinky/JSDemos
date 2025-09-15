@@ -1,8 +1,21 @@
 let student = {
     name: "John",
     age: 21,
-    isEnrolled: true
+    isEnrolled: true,
+    course: [
+        "Mathematics",
+        "Physics",
+        "Chemistry"
+    ],
+
+    //method
+    addCourse(newCourse){
+        this.course.push(newCourse);
+    }
 }
+
+student.addCourse("Biology");
+console.log(student.course);
 // console.log(student);
 // console.log(student.name);
 // console.log(student["age"]);
