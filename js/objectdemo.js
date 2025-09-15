@@ -13,6 +13,6 @@ console.log(student["age"]);
         code block to be executed
     }
 */
-for (let key in student) {
-    console.log(key + ": " + student[key]);
+for (let index in student) {
+    console.log(`${index}: ${student[index]}`);
 }
