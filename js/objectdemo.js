@@ -36,3 +36,6 @@ let car = {
         console.log(`The car is braking. Current speed: ${this.speed} km/h`);
     }
 }
+
+car.accelerate();
+car.accelerate();
